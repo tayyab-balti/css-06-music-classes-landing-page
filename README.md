@@ -27,6 +27,6 @@ https://your-username.github.io/css-06-music-classes-landing-page/
 |   └── screenshot.png  
 
 ## 🚀 How to Use
-1. Clone:  `git clone https://github.com/your-username/css-06-music-classes-landing-page.git`
+1. Clone:  `git clone https://github.com/tayyab-balti/css-06-music-classes-landing-page.git`
 
 2. Double-click `index.html` to run in your browser.
