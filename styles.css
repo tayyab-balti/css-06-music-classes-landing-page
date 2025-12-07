@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.pages ul {
+    display: flex;
+    list-style: none;
+    /* padding: 30px; */
+}
+
+.pages li a {
+    text-decoration: none;
+    margin: 12px;
+}
+
+.circle {
+    height: 110px;
+    width: 110px;
+    border: 30px solid rgb(241, 197, 13);
+    border-radius: 50%;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+}
+
+.parent {
+    position: relative;
+    width: 900px;
+    /* background-color: blue; */
+    left: 230px;
+    top: 75px;
+}
+
+.music {
+    height: 240px;
+    width: 435px;
+    border: 5px solid rgb(241, 197, 13);
+    padding: 30px;
+    text-align: center;
+    background: #fff;
+    position: relative;
+    bottom: 90px;
+    left: 110px;
+}
+
+.music h5 {
+    letter-spacing: 7px;
+    font-weight: 300;
+}
+
+.music h2 {
+    font-size: 54px;
+    padding: 10px;
+}
+
+div>p {
+    color: #616264;
+}
+
+button {
+    background: #000;
+    color: #fff;
+    padding: 5px 20px;
+    margin: 20px;
+}
+
+.rectangle {
+    height: 340px;
+    width: 580px;
+    background: rgb(241, 197, 13);
+    position: absolute;
+    left: 275px;
+    bottom: -50px;
+    z-index: -1;
+}
+
+.image1 {
+    width: 330px;
+    height: auto;
+    position: absolute;
+    left: 275px;
+    top: 570px;
+}
+
+.image1 img {
+    width: 330px;
+    height: 240px;
+    border: 7px solid rgb(241, 197, 13);
+}
+
+.image1 p {
+    padding-top: 20px;
+    padding-left: 45px;
+}
+
+.image2 {
+    width: 250px;
+    height: auto;
+    position: relative;
+    bottom: 60px;
+    left: 690px;
+}
+
+.image2 img {
+    width: 250px;
+    height: 270px;
+    border: 10px solid #fff;
+}
+
+.image2 h2 {
+    font-size: 35px;
+    padding: 5px;
+}
+
+.image2 p {
+    padding: 10px;
+}
+
+.circles {
+    width: 100%;
+    height: auto;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: right;
+}
+
+.dots {
+    width: 40px;
+    height: 40px;
+    background: rgb(241, 197, 13);
+    border-radius: 50%;
+    position: relative;
+    right: 260px;
+    margin: 20px 10px;
+}
+
+.footer {
+    background-color: #333534;
+    color: #e6dede;
+    text-align: center;
+}
+
+.footer pre {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.footer p {
+    padding: 30px 0px;
+    color: #e6dede;
+}
